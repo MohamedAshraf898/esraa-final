@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 315">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4e9b8"/>
+      <stop offset="1" stop-color="#e2a53f"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="315" fill="url(#g)"/>
+  <circle cx="430" cy="40" r="90" fill="#ffffff14"/>
+  <circle cx="40" cy="290" r="70" fill="#00000010"/>
+  <text x="32" y="252" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30" fill="#212121" letter-spacing="-0.5">Emaar Al-Arkan</text>
+  <text x="32" y="278" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="15" fill="#212121aa">Real Estate · Branding & Social</text>
+</svg>
