@@ -11,7 +11,7 @@ projectCards.forEach(card => card.addEventListener('click', () => {
     document.querySelector('#project-description').textContent = card.dataset.description || '';
     projectDialog.showModal();
 }));
-document.querySelector('#contact-open').addEventListener('click', () => document.querySelector('#contact-dialog').showModal());
+document.querySelector('#contact-open')?.addEventListener('click', () => document.querySelector('#contact-dialog').showModal());
 const heroPreview = document.querySelector('.hero-preview');
 if (heroPreview) heroPreview.addEventListener('click', event => { event.preventDefault(); document.querySelector(`.project-card[data-project="${heroPreview.dataset.projectLink}"]`)?.click(); });
 /* Googly eyes: the whole eye pair leans toward the pointer, and pupils track inside each eye on top of that. */
